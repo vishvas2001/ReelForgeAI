@@ -1,13 +1,29 @@
-> 🧪 (You can upload a demo reel later or replace this with a GIF)
+# 🎬 ReelForgeAI
 
-![Demo](https://github.com/vishvas2001/ReelForgeAI/assets/demo-placeholder.gif)
+> Turn your text, voice, and images into social media-ready video reels — powered by Python, Flask, AI Voice, and FFmpeg.
+
+---
+
+## 🚀 Features
+
+- 🧠 AI Text-to-Speech using ElevenLabs API  
+- 📸 Image Sequencing into 9:16 vertical video reels  
+- 🔊 Auto-generated voiceover from user description  
+- 🎬 Full reel generation pipeline (images + voice → MP4)  
+- ⚙️ Real-time folder watching and processing  
+- 🌐 Flask web interface to upload & preview reels  
+
+---
+
+## 📸 Demo Preview
+
+> _(Coming soon — you can upload a demo video GIF later)_
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python 3.10+
-- Python 3
 - Flask
 - FFmpeg
 - ElevenLabs TTS API
@@ -18,7 +34,6 @@
 
 ## 📁 Project Structure
 
-
 ReelForgeAI/
 ├── static/reels/ # Final output videos
 ├── templates/create.html # Upload form UI
@@ -27,7 +42,7 @@ ReelForgeAI/
 ├── generate_process.py # Background reel generator
 ├── text_to_audio.py # ElevenLabs TTS
 ├── config.py # API Key (ignored in .gitignore)
-├── requirements.txt
+├── sample_input_ffmpeg.txt
 └── README.md
 
 
@@ -38,17 +53,22 @@ ReelForgeAI/
 ```bash
 git clone https://github.com/vishvas2001/ReelForgeAI.git
 cd ReelForgeAI
-pip install -r requirements.txt
+pip install -r sample_input_ffmpeg.txt
 python main.py
+```
 ⚠️ Requires FFmpeg installed and added to system PATH
 
-🔐 ElevenLabs API Setup
+## 🔐 ElevenLabs API Setup
 Get your API key from: https://www.elevenlabs.io/
 
 Create a file named config.py and add:
+```bash
 ELEVENLABS_API_KEY = "your_api_key_here"
+```
+---
 
-📦 Requirements
+## 📦 Requirements
+
 Python 3.10+
 
 FFmpeg
@@ -58,7 +78,8 @@ Flask
 elevenlabs (Python SDK)
 
 ---
-💡 Upcoming Features
+
+## 💡 Upcoming Features
 
 🎙️ Voice style selection (male, female, robotic, etc.)
 
@@ -72,17 +93,16 @@ elevenlabs (Python SDK)
 
 📊 Reel generation statistics dashboard
 
+---
 
-
- 🙋‍♂️ Author
-
-Vishwas Parmar
+## 🙋‍♂️ Author
+Vishvas Parmar
 📧 Contact
-🔗 LinkedIn ← (Add your real profile link)
+🔗 LinkedIn 
+   Instagram
 
+---
 
 ## ⭐ Show Your Support
 If you liked this project, drop a ⭐ on the repo — it really helps!
-
----
 
