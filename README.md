@@ -46,5 +46,5 @@ ReelForgeAI/
 ├── generate_process.py # Background reel generator
 ├── text_to_audio.py # ElevenLabs TTS
 ├── config.py # API Key (ignored in .gitignore)
-├── requirements.txt
+├── sample_input_ffmpeg.txt
 └── README.md
