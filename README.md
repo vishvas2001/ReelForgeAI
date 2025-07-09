@@ -1,29 +1,13 @@
-# 🎬 ReelForgeAI
+> 🧪 (You can upload a demo reel later or replace this with a GIF)
 
-> Turn your text, voice, and images into social media-ready video reels — powered by Python, Flask, AI Voice, and FFmpeg.
-
----
-
-## 🚀 Features
-
-- 🧠 AI Text-to-Speech using ElevenLabs API  
-- 📸 Image Sequencing into 9:16 vertical video reels  
-- 🔊 Auto-generated voiceover from user description  
-- 🎬 Full reel generation pipeline (images + voice → MP4)  
-- ⚙️ Real-time folder watching and processing  
-- 🌐 Flask web interface to upload & preview reels  
-
----
-
-## 📸 Demo Preview
-
-> _(Coming soon — you can upload a demo video GIF later)_
+![Demo](https://github.com/vishvas2001/ReelForgeAI/assets/demo-placeholder.gif)
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python 3.10+
+- Python 3
 - Flask
 - FFmpeg
 - ElevenLabs TTS API
@@ -33,6 +17,7 @@
 ---
 
 ## 📁 Project Structure
+
 
 ReelForgeAI/
 ├── static/reels/ # Final output videos
@@ -45,9 +30,6 @@ ReelForgeAI/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -64,11 +46,8 @@ python main.py
 Get your API key from: https://www.elevenlabs.io/
 
 Create a file named config.py and add:
-
-python
-Copy
-Edit
 ELEVENLABS_API_KEY = "your_api_key_here"
+
 📦 Requirements
 Python 3.10+
 
@@ -78,7 +57,9 @@ Flask
 
 elevenlabs (Python SDK)
 
+---
 💡 Upcoming Features
+
 🎙️ Voice style selection (male, female, robotic, etc.)
 
 👤 User login & profile-based video storage
@@ -91,28 +72,17 @@ elevenlabs (Python SDK)
 
 📊 Reel generation statistics dashboard
 
-🙋‍♂️ Author
+
+
+ 🙋‍♂️ Author
+
 Vishwas Parmar
 📧 Contact
 🔗 LinkedIn ← (Add your real profile link)
 
-⭐ Show Your Support
-If you liked this project, drop a ⭐ on the repo — it really helps!
 
-yaml
-Copy
-Edit
+## ⭐ Show Your Support
+If you liked this project, drop a ⭐ on the repo — it really helps!
 
 ---
 
-## ✅ What You Should Do Now:
-
-1. Create or open your `README.md` in VS Code.
-2. Paste the above clean content.
-3. Save it.
-4. Then run:
-
-```bash
-git add README.md
-git commit -m "Add clean and structured README"
-git push
